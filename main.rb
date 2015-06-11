@@ -11,7 +11,6 @@ machine = TIS100::Machine.new do
     'add 1',
     'mov acc down',
     ])
-  mynode[:up]
 
   connect(i, mynode[:up])
   connect(mynode[:down], o)
